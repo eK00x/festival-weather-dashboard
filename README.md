@@ -1,6 +1,6 @@
 # T03 Single-Page-Application for Weather Monitoring (Web Technologies)
 
-![Weather Dashboard Preview](./3.screenshot.png)
+<img src="./3-screenshot.png" alt="Weather" width="300"/>
 
 ## Context
 This project was developed as the third milestone within the "Web Technologies" module at my university. The objective was to expand my knowledge of web architecture by implementing a full-stack approach. The application consists of a dedicated backend server providing a local API and a frontend client that consumes this data to provide dynamic visualizations.
