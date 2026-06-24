@@ -1,6 +1,4 @@
-# T03 Single-Page-Application for Weather Monitoring (Web-Technologien)
-
-Authors: Alice Alferink & Emilia Kistowski
+# T03 Single-Page-Application for Weather Monitoring (Web Technologies)
 
 ## Description
 The Website "Festival am See - Wetter" is a single page application that allows to monitor weather data for the upcoming days. The application is divided into a frontend and a backend. In the backend a local API is provided by a server. The frontend connects as client to the API. It fetches the weather data and visualizes them. Data about the temperatore are shown as a Pie Chart. A line chart visualizes the cloudyness in percent per hour. 
