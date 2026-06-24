@@ -1,49 +1,26 @@
 # T03 Single-Page-Application for Weather Monitoring (Web Technologies)
 
+## Context
+This project was developed as the third milestone within the "Web Technologies" module at my university. The objective was to expand my knowledge of web architecture by implementing a full-stack approach. The application consists of a dedicated backend server providing a local API and a frontend client that consumes this data to provide dynamic visualizations.
+
 ## Description
-The Website "Festival am See - Wetter" is a single page application that allows to monitor weather data for the upcoming days. The application is divided into a frontend and a backend. In the backend a local API is provided by a server. The frontend connects as client to the API. It fetches the weather data and visualizes them. Data about the temperatore are shown as a Pie Chart. A line chart visualizes the cloudyness in percent per hour. 
-A header on top of the page, as well as two text boxes next to the diagrams, explain the visualizations with a few words. 
+"Festival am See - Wetter" is a single-page application designed to monitor weather data for the upcoming days. The frontend connects to a local Node.js backend to fetch weather data, which is then dynamically visualized. Temperature data is presented as a pie chart, while cloud cover percentages are tracked via a line chart. A header and descriptive text boxes provide additional context for the visualizations.
 
-## Folder Structure
-- Teilleistung_03
-    - client
-        - index.html
-        - index.js
-    - server
-        - index.js
-        - temperatur_stuendlich.json
-        - wolkenbedeckung_stuendlich.json
-        - package.json
-    - node_modules
-    - package-lock.json
-    - package.json
-    - README.md
+## Architecture & Folder Structure
+The application follows a client-server pattern:
+- /client: Frontend source code (HTML, JavaScript).
+- /server: Node.js server handling API requests, including JSON data files.
+- package.json: Manages dependencies and scripts for both client and server.
 
-
-## Setup Backend
-- install VS Code
-- install node.js
-- install npm packages
-- install cors
-
-## How to Start/Use the Website
-1. Step: Download the folder.
-2. Step: If needed, unzip the folder.
-3. Step: Open the folder in VS Coder or an other IDE with a terminal. 
-5. Step: Run the command: "npm run server" .
-6. Step: Open a second teminal and run: "npm run client" . The SPA should open itself automatically in the browser. 
-7. Step: Enjoy! 😊
-
+## Setup & Execution
+1. Ensure Node.js and npm are installed on your machine.
+2. Download and unzip the project folder.
+3. Open the root directory in your IDE (e.g., VS Code).
+4. Run npm install in the terminal to install all necessary dependencies (including cors).
+5. Open two terminal instances:
+- Terminal 1: Run npm run server to start the backend.
+- Terminal 2: Run npm run client to start the frontend.
+6. The application will open automatically in your default browser. Enjoy! 😊
 
 ## Testing
-The application was tested on
-- Brave Browser
-- Firefox
-- Chrome
-
-
-## Testing
-The application was tested on
-- Brave Browser
-- Firefox
-- Chrome
+The application was tested on Brave Browser, Firefox, and Chrome.
