@@ -1,5 +1,7 @@
 # T03 Single-Page-Application for Weather Monitoring (Web Technologies)
 
+### Project Preview
+
 <img src="./3-screenshot.png" alt="Weather" width="300"/>
 
 ## Context
